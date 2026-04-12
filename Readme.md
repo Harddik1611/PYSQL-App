@@ -1,6 +1,6 @@
 # Python-Driven UI for Advanced SQL Database Operations
 
-> A practical solution for non-technical users to manage databases without SQL knowledge
+> A practical solution for non-technical users to manage databases without SQL knowledge through a Streamlit app.
 
 ## 🎯 The Problem 
 
