@@ -2,7 +2,7 @@
 
 > A practical solution for non-technical users to manage databases without SQL knowledge
 
-## 🎯 The Problem (SITUATION)
+## 🎯 The Problem 
 
 ### The Real-World Challenge
 
@@ -32,7 +32,7 @@ Team Lead receives an order
 = Inefficiency and risk
 ```
 
-## 🔧 The Task (TASK)
+## 🔧 The Task 
 
 ### What We Built
 
@@ -53,7 +53,7 @@ We created a **Python-Streamlit web application** that bridges the gap between u
 | **Create audit trail** | Complete history tracking | Compliance & accountability |
 | **Fast implementation** | Streamlit + MySQL | Quick deployment & updates |
 
-## 🚀 The Action (ACTION)
+## 🚀 The Action
 
 ### How We Solved It
 
@@ -300,7 +300,7 @@ Database automatically:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📈 The Results (RESULT)
+## 📈 The Results 
 
 ### Business Impact
 
