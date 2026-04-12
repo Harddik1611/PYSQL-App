@@ -17,7 +17,7 @@ from db_functions import(
 )  
 
 #sidebar
-st.sidebar.title("Inventory Reruirement Dashboard")
+st.sidebar.title("Inventory Recuirement Dashboard")
 option=st.sidebar.radio("Select options:", ["Basic Informatiom","Operational Task"])
 
 # Main space
