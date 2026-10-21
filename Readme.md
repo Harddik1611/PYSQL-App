@@ -1,6 +1,6 @@
 # PYSQL App: Inventory & Supply Chain Dashboard
 
-A Streamlit web app that lets non-technical users view and manage a MySQL inventory database without writing any SQL Queries.
+A Streamlit web app that lets non-technical users view and manage a MySQL inventory database without writing any SQL.
 
 ---
 
@@ -9,6 +9,28 @@ A Streamlit web app that lets non-technical users view and manage a MySQL invent
 Managers and team leads often need to check stock levels, add products, or confirm that a supplier shipment has arrived, but the data lives in a MySQL database that only people who know SQL can use. This project puts a simple web interface on top of that database so those tasks take a few clicks.
 
 The app connects to a MySQL database called `supply_chain` and calls its tables and stored procedures from Python.
+
+## How the Project Works (2 Main Steps)
+
+### Step 1: Build the MySQL Database
+
+We design a database that includes:
+
+- **Tables:** for things like products, suppliers, reorders, stock entries and inventory history
+- **Views:** for reports and summaries (e.g. product history)
+- **Stored Procedures:** for actions like receiving an order and updating stock
+- **Functions:** for business calculations (e.g. check if a product needs restocking)
+
+This step simulates how businesses store and organize data, with rules built into the database.
+
+### Step 2: Build the Streamlit Frontend
+
+Next, we create a web interface using Streamlit that allows users to:
+
+- View data from tables and reports in a clean dashboard
+- Use buttons to run stored procedures (e.g. "Mark as Received")
+- Add records (like new products) and place reorders using forms and clicks
+- See live results on screen, without writing SQL
 
 ## Features
 
