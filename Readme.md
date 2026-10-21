@@ -1,6 +1,6 @@
 # PYSQL App: Inventory & Supply Chain Dashboard
 
-A Streamlit web app that lets non-technical users view and manage a MySQL inventory database without writing any SQL.
+A Streamlit web app that lets non-technical users view and manage a MySQL inventory database without writing any SQL Queries.
 
 ---
 
