@@ -84,8 +84,6 @@ The app expects a MySQL database named **`supply_chain`** containing:
 - `AddNewProdcutManualId(name, category, price, stock_quantity, reorder_level, supplier_id)`
 - `MarkReorderAsReceived(reorder_id)`
 
-> Add your schema and sample data here (for example `data/schema.sql`) so others can recreate the database, then update the setup step below to point to it.
-
 ## Getting Started
 
 ### Prerequisites
